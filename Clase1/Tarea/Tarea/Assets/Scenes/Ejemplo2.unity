@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842734650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.72, z: 0}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -450,10 +450,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1842734650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcaedccc0c3ea4343924211d8c687781, type: 3}
+  m_Script: {fileID: 11500000, guid: 80bb5c71791c9ba458c7327d8093fd28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myCube: {fileID: 1842734650}
+  cubo: {fileID: 1842734650}
 --- !u!1 &2010042373
 GameObject:
   m_ObjectHideFlags: 0

@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 537071728}
   - component: {fileID: 537071727}
   - component: {fileID: 537071726}
-  - component: {fileID: 537071725}
   - component: {fileID: 537071730}
+  - component: {fileID: 537071725}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -153,12 +153,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 537071724}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19a845ce6de43ae4ca1103a521e50b0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cae9a199938d754a9c51f9cc7b6b84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myCube: {fileID: 537071724}
-  speed: 0.05
-  toRight: 0
+  cubo: {fileID: 537071724}
+  speed: 0.1
+  right: 1
 --- !u!65 &537071726
 BoxCollider:
   m_ObjectHideFlags: 0

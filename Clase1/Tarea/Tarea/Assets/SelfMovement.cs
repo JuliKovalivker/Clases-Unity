@@ -26,6 +26,10 @@ public class SelfMovement : MonoBehaviour
         {
             myCube.transform.position -= new Vector3(speed, 0f, 0f);
         }
+        if (myCube.transform.position.x > 25 || myCube.transform.position.x < -25)
+        {
+            myCube.transform.position = new Vector3(0f, 0f, 0f);
+        }
     }
 
     void OnCollisionEnter(Collision collision)
